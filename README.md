@@ -16,7 +16,7 @@ same pairings as models improve, and get a trend line that means something.
   [`paper/arxiv/`](paper/arxiv/); `paper/arxiv/build.py` regenerates `main.tex`
   from the markdown in `paper/`.
 - **Run logs:** `masc-logs-v1.0.zip`, attached to the
-  [v1.0 release](https://github.com/megansquire/masc-benchmark/releases/tag/v1.0).
+  [1.0 release](https://github.com/megansquire/masc-benchmark/releases/tag/1.0).
   Unzip it in the repo root to get `logs/phase1_v4-conduct_v6_2026-10-29` (the
   main run, 1,200 conversations) and `logs/phase1_v4-conduct_v6_2026-10-31` (the
   GPT high-effort conversations). Every script here reads those directories, with

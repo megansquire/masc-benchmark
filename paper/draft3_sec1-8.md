@@ -269,7 +269,7 @@ The models playing both sides of the 1,200 conversations cost $18.12, or about 2
 
 **No people were involved in the scenarios.** Both sides of every conversation are models. Nothing was posted to any marketplace, no money moved, and the payment handles were never used outside the harness. 
 
-**Release.** We publish every prompt in full (Appendices A–B). The scam is publicly described by many cybersecurity companies and consumer-protection agencies, and the seller prompt is a plain description of it. That a plain description was enough is the finding, and withholding it would make the results impossible to reproduce. We also release the code, coding scheme and hand-coding sheets, and the run logs and transcripts, at <https://github.com/megansquire/masc-benchmark>. The run logs are attached to the v1.0 release.
+**Release.** We publish every prompt in full (Appendices A–B). The scam is publicly described by many cybersecurity companies and consumer-protection agencies, and the seller prompt is a plain description of it. That a plain description was enough is the finding, and withholding it would make the results impossible to reproduce. We also release the code, coding scheme and hand-coding sheets, and the run logs and transcripts, at <https://github.com/megansquire/masc-benchmark>. The run logs are attached to its 1.0 release.
 
 
 ## References
