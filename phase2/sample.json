@@ -1,0 +1,10 @@
+{
+ "log_dir": "logs/phase1_v4-conduct_v6_2026-10-29",
+ "seed": 20261031,
+ "drawn": "2026-10-31",
+ "commit": "aba73e3-dirty",
+ "per_model": 10,
+ "second_coder_per_model": 3,
+ "n": 100,
+ "n_second_coder": 30
+}

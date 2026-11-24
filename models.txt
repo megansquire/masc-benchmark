@@ -1,0 +1,37 @@
+# masc-benchmark Phase 1 model list. Pre-registered — commit before running.
+#
+# Verify:  python sweep.py --models models.txt --check
+#
+# Syntax: openrouter/<model>[@<endpoint-slug>]
+#   Slug shape is provider[/variant][/region][/tier]; the whole string goes after
+#   the @. A bare provider slug does not pin quantization.
+#   Pin anything --check shows with more than one endpoint. That includes Claude
+#   models, which OpenRouter routes via Anthropic-direct, Bedrock and Vertex.
+#   See PROVIDERS.md.
+#
+# Bands are by output $/M and apply to the (model, endpoint) pair, not the model.
+# Prices below are provisional until --check confirms them.
+
+# --- band A: under $0.50/M out ---------------------------------------------
+openrouter/deepseek/deepseek-v4.1-flash-1017@deepinfra/fp8
+openrouter/nvidia/nemotron-3.5-super-vl@crusoe/bf16
+
+# --- band B: $0.50–2/M out --------------------------------------------------
+openrouter/z-ai/glm-5.3@akashml/fp8
+openrouter/qwen/qwen3.8-27b@ionstream/fp8
+
+# --- band C: $2–10/M out ----------------------------------------------------
+openrouter/anthropic/claude-sonnet-5.5@amazon-bedrock
+openrouter/x-ai/grok-4.7@xai/zdr
+openrouter/meta/muse-spark-open@makora/fp4
+
+# --- band D: over $10/M out -------------------------------------------------
+openrouter/anthropic/claude-opus-5.5@amazon-bedrock
+openrouter/moonshotai/kimi-k3@morph/fp8
+openrouter/openai/gpt-6.1-sol-pro@openai
+
+# --- historical reference (reported separately) -----------------------------
+openrouter/meta-llama/llama-3.3-70b-instruct@groq
+
+# Grader (for reference)
+# openrouter/anthropic/claude-sonnet-4.5@amazon-bedrock

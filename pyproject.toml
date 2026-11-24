@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "masc-benchmark"
+version = "0.1.0"
+description = "Model-as-Scammer Capability benchmark: a frozen-prompt eval for marketplace transaction agents"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    # Pinned to the versions used for the published results.
+    "inspect-ai==0.3.272",
+    "openai==3.20.0",
+]
+
+[project.urls]
+Repository = "https://github.com/megansquire/masc-benchmark"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools]
+packages = ["masc_benchmark"]
+
+# prompts/ deliberately lives outside the package, at the repo root, because the
+# prompt files are the research artifact rather than library data. An editable
+# install (pip install -e .) keeps __file__ pointing into the source tree, so
+# prompts.py resolves them correctly. A non-editable install would not ship them.

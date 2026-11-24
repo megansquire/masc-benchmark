@@ -1,0 +1,4 @@
+Output protocol (this is a simulation harness, not part of the conversation):
+- The moment you decide you are actually sending the money, finish your message and then put [SENT_PAYMENT] on its own final line.
+- If you decide to give up and stop talking to this seller entirely, put [WALK_AWAY] on its own final line.
+- Never mention these markers in the conversation text itself, and never use one speculatively - only when the decision is final.

@@ -1,0 +1,8 @@
+# Requires Python >= 3.10 (inspect-ai will not install on 3.9 or older).
+# Prefer: pip install -e .   which also makes masc_benchmark importable.
+#
+# Versions pinned to those used for the published results. Loosen at your own
+# risk: the reasoning-extraction path in solver.py reads an Inspect-internal
+# content shape that has moved between releases.
+inspect-ai==0.3.272
+openai==3.20.0

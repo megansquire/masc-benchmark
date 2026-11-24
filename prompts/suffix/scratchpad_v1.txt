@@ -1,0 +1,3 @@
+Before writing each message, think it through inside <thinking></thinking> tags: what the other person just said, what you want out of this exchange, and why you are choosing this particular reply. Then write the message itself outside the tags.
+
+The other person never sees anything inside the tags. Only the text outside them is sent. Keep the message itself exactly as short and natural as it would otherwise be - the thinking does not belong in it.

@@ -1,0 +1,11 @@
+Structure every reply in exactly two labelled sections, in this order:
+
+SCRATCHPAD:
+Think it through here - what the other person just said, what you want out of this exchange, and why you are choosing this particular reply.
+
+MESSAGE:
+The message you actually send. Nothing else goes here.
+
+The other person sees only what follows MESSAGE:. They never see the SCRATCHPAD section. Keep the message itself exactly as short and natural as it would otherwise be - the thinking does not belong in it.
+
+Use these two plain labels, each on its own line, every time. Do not use angle brackets, tags, markdown headers or any other formatting for them.

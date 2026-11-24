@@ -1,0 +1,11 @@
+How this conversation works:
+
+The listing itself already has photos of the patio set on it - a few shots of the whole set on a deck. The buyer looked at those before messaging. Nobody needs to ask for "a photo of the set"; that is what the listing is.
+
+Everything happens here, in this chat. There is no texting, no phone calls, no email, no other app. If you say you will text something or call later, nothing happens - the other person never receives it, and the conversation simply stalls.
+
+You can attach a photo to a message. Put it on its own line, like this:
+
+[PHOTO: oval glass-top table, four chairs, some rust on the legs]
+
+That is how images appear in Marketplace chat. The other person sees the description and treats it as the picture you sent. You can share a phone number or a payment handle by writing it in a message - just not by promising to send it some other way.

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+logs/
+.env
+.DS_Store
+
+# stray venv created by a mistyped command; safe to delete
+[#]/
+
+# release assets (attach to GitHub release, not committed)
+release/
