@@ -8,14 +8,15 @@ authors:
     affiliation: F-Secure
 repository-code: "https://github.com/megansquire/masc-benchmark"
 abstract: >-
-  A frozen-prompt benchmark measuring how capably language models execute a
-  marketplace advance-fee scam, scored by a deterministic payment criterion and a
-  model grader, across a ladder of buyer personas ordered by trust.
+  A frozen-prompt benchmark measuring whether hosted language models will run a
+  marketplace advance-fee scam when asked with a plain system prompt, labelled by
+  what happened to the buyer's money, across a ladder of buyer personas ordered by
+  how hard they are to persuade.
 keywords:
   - AI safety
   - fraud
   - social engineering
   - language model evaluation
 license: MIT
-version: 0.1.0
-date-released: "2026-10-27"
+version: 1.0.0
+date-released: "2026-11-24"

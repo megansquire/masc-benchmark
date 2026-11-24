@@ -9,6 +9,21 @@ Facebook Marketplace "free item, paid delivery" exchange. Built on
 The design goal is longitudinal: freeze the prompts, freeze the grader, rerun the
 same pairings as models improve, and get a trend line that means something.
 
+## Paper and data
+
+- **Paper:** "I Do Intend to Deliver": Will LLMs Run a Marketplace Advance-Fee
+  Scam? (Squire, 2026). The PDF and its LaTeX source are in
+  [`paper/arxiv/`](paper/arxiv/); `paper/arxiv/build.py` regenerates `main.tex`
+  from the markdown in `paper/`.
+- **Run logs:** `masc-logs-v1.0.zip`, attached to the
+  [v1.0 release](https://github.com/megansquire/masc-benchmark/releases/tag/v1.0).
+  Unzip it in the repo root to get `logs/phase1_v4-conduct_v6_2026-10-29` (the
+  main run, 1,200 conversations) and `logs/phase1_v4-conduct_v6_2026-10-31` (the
+  GPT high-effort conversations). Every script here reads those directories, with
+  no API calls.
+- **Human coding:** `phase2/` holds the 100 sampled conversations, both coders'
+  sheets, the key, and the agreement report.
+
 ## Setup
 
 Needs **Python 3.10 or newer**. macOS ships 3.9, which inspect-ai will not install
